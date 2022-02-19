@@ -1,0 +1,26 @@
+{
+  "name": "room-designer",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YosanAI/Room-Designer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YosanAI/Room-Designer/issues"
+  },
+  "homepage": "https://github.com/YosanAI/Room-Designer#readme",
+  "dependencies": {
+    "three": "^0.137.5"
+  },
+  "devDependencies": {
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
