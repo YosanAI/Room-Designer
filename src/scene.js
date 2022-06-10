@@ -27,7 +27,7 @@ export function initScene() {
     directionalLight.shadow.camera.bottom = - shadowCameraSize;
     //to prvent wierd shadow on double sided mesh
     directionalLight.shadow.bias = - 0.000007;
-    directionalLight.position.set(10, 10, 10);
+    directionalLight.position.set(100, 300, 200);
     scene.add(directionalLight);
     const ambientLight = new AmbientLight(0xffffff);
     ambientLight.intensity = 0.4;

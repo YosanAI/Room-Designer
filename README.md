@@ -2,6 +2,6 @@
 steps:
 1 npm i
 
-2 to compile use the command: npx webpack --config webpack.config.js
+2 to build use the command: npm run build
 
-and then open the index.js file under dist folder. I will implement npm scripts and a dev server later.
+and then open the index.js file under dist folder. I will implement dev server later.
