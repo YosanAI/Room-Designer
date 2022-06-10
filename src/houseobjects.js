@@ -48,7 +48,7 @@ export class Wall {
         this.positionMesh(startPt,endPt,length,height,thickness);
 
         this.joint.position.set(startPt.x,0,-startPt.y);
-        //this.joint.rotation.y = angle;
+        this.joint.rotation.y = angle;
        
         
         this.joint.add(this.mesh);
